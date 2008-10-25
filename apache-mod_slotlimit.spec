@@ -5,7 +5,7 @@
 
 Summary:	Dynamic slot allocation
 Name:		apache-%{mod_name}
-Version:	1.0
+Version:	1.1
 Release: 	%mkrel 1
 Group:		System/Servers
 License:	GPLv3
@@ -63,4 +63,3 @@ rm -rf %{buildroot}
 %doc Readme
 %attr(0644,root,root) %config(noreplace) %{_sysconfdir}/httpd/modules.d/%{mod_conf}
 %attr(0755,root,root) %{_libdir}/apache-extramodules/%{mod_so}
-
