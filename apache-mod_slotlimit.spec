@@ -9,7 +9,7 @@ Version:	1.2
 Release: 	%mkrel 4
 Group:		System/Servers
 License:	GPLv3
-URL:		http://sourceforge.net/projects/mod-slotlimit/
+URL:		https://sourceforge.net/projects/mod-slotlimit/
 Source0:	http://ovh.dl.sourceforge.net/sourceforge/mod-slotlimit/%{mod_name}-%{version}.tar.gz
 Source1:	%{mod_conf}
 Requires(pre): rpm-helper
