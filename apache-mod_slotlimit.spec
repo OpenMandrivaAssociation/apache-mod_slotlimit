@@ -6,7 +6,7 @@
 Summary:	Dynamic slot allocation
 Name:		apache-%{mod_name}
 Version:	1.2
-Release: 	%mkrel 4
+Release: 	5
 Group:		System/Servers
 License:	GPLv3
 URL:		https://sourceforge.net/projects/mod-slotlimit/
